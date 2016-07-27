@@ -3,7 +3,7 @@
   <Role name="CryptBitWeb">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cryptbitdeploy;AccountKey=sVyY4rBLZOwhNAIurP11pZjWN4KVuJidOHylxeCm+a3c+cA0YlApEYQAGzUb33QWu2aJaD1VbEYfGLX7vJGWaw==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="" />
       <Setting name="StorageConnectionString" value="" />
       <Setting name="AppInsightsInstrumentationKey" value="" />
       <Setting name="aadClientId" value="" />
@@ -15,7 +15,7 @@
   <Role name="CryptBitService">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cryptbitdeploy;AccountKey=sVyY4rBLZOwhNAIurP11pZjWN4KVuJidOHylxeCm+a3c+cA0YlApEYQAGzUb33QWu2aJaD1VbEYfGLX7vJGWaw==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="" />
       <Setting name="StorageConnectionString" value="" />
       <Setting name="AppInsightsInstrumentationKey" value="" />
       <Setting name="aadClientId" value="" />
