@@ -1,0 +1,79 @@
+﻿
+
+<div class="jumbotron">
+
+    <div id="dropZoneContainer">
+        <div class="dropzone needsclick dz-clickable" id="dropzoneForm">
+            <div>
+                <div class="dz-message needsclick">
+                    Drop files here or click to upload.<br />
+                </div>
+            </div>
+        </div>
+        <div>
+            <button type="submit" id="submit-all">Upload, zip, and encrypt</button>
+        </div>
+
+    </div>
+
+    <div id="archiveDownloadPending">
+        <img src="~/Content/gears.svg" /><br/>
+        Your upload is complete.  Give us a few minutes to zip and encrypt.  Once complete the URL to download your archive will show up here.<br/>
+        <div id="archiveDownloadStatus" />
+    </div>
+
+  
+
+
+</div>
+<div id="archiveDownloadComplete">
+   
+    Your archive is ready.   You can share this URL for the next 24 hours.
+    <div id="archiveDownloadUrl" />
+</div>
+
+
+@section Styles  {
+    <style type="text/css">
+        #dropzoneForm {
+            margin-bottom: 3rem;
+        }
+
+        #archiveDownloadPending {
+            display: none;
+        }
+
+        #archiveDownloadComplete {
+            display: none;
+        }
+
+
+        .dropzone {
+            border: 2px dashed #0087F7;
+            border-radius: 5px;
+            background: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+            .dropzone .dz-message {
+                font-weight: 400;
+            }
+
+                .dropzone .dz-message .note {
+                    font-size: 0.8em;
+                    font-weight: 200;
+                    display: block;
+                    margin-top: 1.4rem;
+                }
+    </style>
+}
+
+@section Scripts {
+
+
+    @Styles.Render("~/Content/dropzonescss")
+    @Scripts.Render("~/bundles/dropzonescripts")
+    @Scripts.Render("/Scripts/upload.js")
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="cryptbit" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="CryptBitWeb">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cryptbitdeploy;AccountKey=sVyY4rBLZOwhNAIurP11pZjWN4KVuJidOHylxeCm+a3c+cA0YlApEYQAGzUb33QWu2aJaD1VbEYfGLX7vJGWaw==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cryptbitprod;AccountKey=HJywHmOh5SDaPIhlBHX4ozKF/lIyQI1s35pWZyJRoIiri84VqU4OqDM1sRIOqzsVwyG92BYCB/du1qquHRZ4cA==" />
+      <Setting name="AppInsightsInstrumentationKey" value="6b28e78d-6bf2-41d1-a1c1-6920b9d65c3e" />
+      <Setting name="aadClientId" value="1b6f17bf-9e1d-46aa-9fee-eee51ec91679" />
+      <Setting name="aadClientSecret" value="0wOFl8XBha/AsvMafHvhNTq3f8hIh5Z/IpsdODIHH6M=" />
+      <Setting name="kvVaultUri" value="https://cryptbit.vault.azure.net" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="028cb54b-43f5-4761-bc3f-03181acd9fa3" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="CryptBitService">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cryptbitdeploy;AccountKey=sVyY4rBLZOwhNAIurP11pZjWN4KVuJidOHylxeCm+a3c+cA0YlApEYQAGzUb33QWu2aJaD1VbEYfGLX7vJGWaw==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cryptbitprod;AccountKey=HJywHmOh5SDaPIhlBHX4ozKF/lIyQI1s35pWZyJRoIiri84VqU4OqDM1sRIOqzsVwyG92BYCB/du1qquHRZ4cA==" />
+      <Setting name="AppInsightsInstrumentationKey" value="6b28e78d-6bf2-41d1-a1c1-6920b9d65c3e" />
+      <Setting name="aadClientId" value="1b6f17bf-9e1d-46aa-9fee-eee51ec91679" />
+      <Setting name="aadClientSecret" value="0wOFl8XBha/AsvMafHvhNTq3f8hIh5Z/IpsdODIHH6M=" />
+      <Setting name="kvVaultUri" value="https://cryptbit.vault.azure.net" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="028cb54b-43f5-4761-bc3f-03181acd9fa3" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "cryptbit", "cryptbit\cryptbit.ccproj", "{D9A5BF78-DF75-4374-B065-76DB37519A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptBitWeb", "CryptBitWeb\CryptBitWeb.csproj", "{0B838698-0A1E-41DB-A6FC-E1200BC9A2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptBitService", "CryptBitService\CryptBitService.csproj", "{C9168E77-8943-48D5-A5C7-AD5EBFFD0F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptBitLibrary", "CryptBitLibrary\CryptBitLibrary.csproj", "{4562BF68-79EA-49B9-A35C-AC2E9B041F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9A5BF78-DF75-4374-B065-76DB37519A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A5BF78-DF75-4374-B065-76DB37519A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A5BF78-DF75-4374-B065-76DB37519A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A5BF78-DF75-4374-B065-76DB37519A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B838698-0A1E-41DB-A6FC-E1200BC9A2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B838698-0A1E-41DB-A6FC-E1200BC9A2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B838698-0A1E-41DB-A6FC-E1200BC9A2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B838698-0A1E-41DB-A6FC-E1200BC9A2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9168E77-8943-48D5-A5C7-AD5EBFFD0F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9168E77-8943-48D5-A5C7-AD5EBFFD0F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9168E77-8943-48D5-A5C7-AD5EBFFD0F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9168E77-8943-48D5-A5C7-AD5EBFFD0F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4562BF68-79EA-49B9-A35C-AC2E9B041F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4562BF68-79EA-49B9-A35C-AC2E9B041F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4562BF68-79EA-49B9-A35C-AC2E9B041F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4562BF68-79EA-49B9-A35C-AC2E9B041F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
